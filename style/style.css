@@ -1,0 +1,88 @@
+html {
+  background-color: #24353f;
+  body {
+    background-color: #24353f;
+    font-family: sans-serif;
+    .container {
+      background-color: #24353f;
+      box-shadow: 0px 0px 50px 20px rgba(0, 0, 0, 0.5);
+      h2 {
+        font-size: 40px;
+        font-weight: 500;
+        color: #17a2b8;
+      }
+      #registerbutton {
+        background-color: transparent;
+        color: #17a2b8;
+        &:hover {
+          background-color: #17a2b8;
+          color: white;
+        }
+      }
+      #signupbutton {
+        background-color: transparent;
+        color: #17a2b8;
+        border: solid 1px #17a2b8;
+        &:hover {
+          background-color: #17a2b8;
+          color: white;
+        }
+      }
+      input {
+        &:focus {
+          border: solid 1px #17a2b8;
+          outline: none;
+          box-shadow: none;
+        }
+        &::placeholder {
+          color: white;
+          opacity: 0.5;
+        }
+      }
+      p {
+        color: white;
+        a {
+          text-decoration: none;
+          color: inherit;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    .container-fluid {
+      .nav {
+        box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.5);
+        a {
+          text-decoration: none;
+          color: inherit;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+      #logoutButton {
+        background-color: transparent;
+        color: gray;
+        &:hover {
+          background-color: #ffc107;
+          color: white;
+        }
+      }
+      .home {
+        .home-content {
+          box-shadow: 0px 0px 50px 20px rgba(0, 0, 0, 0.5);
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          top: 45%;
+          h2 {
+            color: #17a2b8;
+            font-size: 40px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}
